@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
+    - field.field.user.user.mass_contact_opt_out
     - field.field.user.user.og_group_ref
     - field.field.user.user.user_picture
     - image.style.thumbnail
@@ -28,5 +29,6 @@ content:
     label: hidden
 hidden:
   langcode: true
+  mass_contact_opt_out: true
   member_for: true
   og_group_ref: true

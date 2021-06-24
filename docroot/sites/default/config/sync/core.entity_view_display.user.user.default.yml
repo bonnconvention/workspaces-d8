@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.mass_contact_opt_out
     - field.field.user.user.og_group_ref
     - field.field.user.user.user_picture
   module:
@@ -29,4 +30,5 @@ content:
     region: content
 hidden:
   langcode: true
+  mass_contact_opt_out: true
   og_group_ref: true

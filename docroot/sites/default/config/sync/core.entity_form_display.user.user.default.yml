@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.mass_contact_opt_out
     - field.field.user.user.og_group_ref
     - field.field.user.user.user_picture
     - image.style.thumbnail
@@ -29,6 +30,12 @@ content:
     region: content
   language:
     weight: 0
+    region: content
+  mass_contact_opt_out:
+    type: options_buttons
+    settings: {  }
+    weight: 8
+    third_party_settings: {  }
     region: content
   timezone:
     weight: 6

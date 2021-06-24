@@ -15,5 +15,7 @@ settings:
   label: ''
   provider: core
   label_display: '0'
+  properties:
+    administrative: '1'
   block_count: 5
 visibility: {  }
