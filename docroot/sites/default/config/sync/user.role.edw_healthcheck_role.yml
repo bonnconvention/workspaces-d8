@@ -1,0 +1,10 @@
+uuid: 0aaee261-c3ca-4487-8f54-ca5a6176578b
+langcode: en
+status: true
+dependencies: {  }
+id: edw_healthcheck_role
+label: 'EDW HealthCheck Access Role'
+weight: 17
+is_admin: null
+permissions:
+  - 'edw healthcheck access'

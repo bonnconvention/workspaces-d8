@@ -1,0 +1,20 @@
+uuid: 1355f351-f1b8-45fb-938f-ab2b2599a4a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+id: node.comment_node_mass_contact
+field_name: comment_node_mass_contact
+entity_type: node
+type: comment
+settings:
+  comment_type: comment_node_mass_contact
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

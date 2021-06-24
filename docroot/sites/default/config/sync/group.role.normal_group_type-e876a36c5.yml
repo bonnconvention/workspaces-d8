@@ -1,0 +1,17 @@
+uuid: db32efec-7965-4c95-a32d-33a9023dfdde
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+  enforced:
+    config:
+      - user.role.workspace_moderator
+id: normal_group_type-e876a36c5
+label: 'Workspace Moderator'
+weight: 12
+internal: true
+audience: outsider
+group_type: normal_group_type
+permissions_ui: false
+permissions: {  }

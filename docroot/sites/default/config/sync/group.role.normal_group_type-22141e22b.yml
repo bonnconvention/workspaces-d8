@@ -1,0 +1,17 @@
+uuid: d0981e35-063e-426d-9941-2043ed316863
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+  enforced:
+    config:
+      - user.role.invited_expert
+id: normal_group_type-22141e22b
+label: 'Invited Expert'
+weight: 14
+internal: true
+audience: outsider
+group_type: normal_group_type
+permissions_ui: false
+permissions: {  }

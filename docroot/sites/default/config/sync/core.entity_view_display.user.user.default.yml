@@ -1,0 +1,32 @@
+uuid: bd700986-904f-46e6-bf5c-98724e221a93
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.og_group_ref
+    - field.field.user.user.user_picture
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  member_for:
+    weight: 5
+    region: content
+  user_picture:
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: content
+    type: image
+    weight: 6
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  og_group_ref: true

@@ -1,0 +1,19 @@
+uuid: eb870236-7da9-4938-afe7-fd9b5d05f96f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - menu-tc-wiki
+      - menu-tc-working-area
+    parent: 'menu-tc-wiki:0:'
+name: 'Discussion Wiki'
+type: discussion_wiki
+description: 'Discussion Wiki is a version controlled type to hold discussions, meeting minutes etc. '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

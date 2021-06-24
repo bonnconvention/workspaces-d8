@@ -1,0 +1,14 @@
+uuid: 45f41d84-e871-44b0-aea8-7b5e1f9a0859
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+id: normal_group_type-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: normal_group_type
+permissions_ui: true
+permissions: {  }

@@ -1,0 +1,16 @@
+uuid: b9e0a880-0880-44cc-a3e3-98c3505d9c3e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: cCiWdBHgLwj5omG35lsKc4LkW4MBdmcctkVop4ol5x0
+name: thumbnail
+label: thumbnail
+effects:
+  6f83555b-b126-4eae-82fc-5a28a84b221c:
+    uuid: 6f83555b-b126-4eae-82fc-5a28a84b221c
+    id: image_resize
+    weight: 2
+    data:
+      width: 64
+      height: 85

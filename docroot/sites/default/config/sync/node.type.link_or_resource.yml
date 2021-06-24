@@ -1,0 +1,16 @@
+uuid: c5023042-fe73-4a65-a5c1-1ff2cd0331dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: 'Link or Resource'
+type: link_or_resource
+description: 'CT to store interesting links from the various content.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

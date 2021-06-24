@@ -1,0 +1,11 @@
+uuid: 3da1cfb5-bf4e-4ca9-b593-2145f27b3f31
+langcode: en
+status: true
+dependencies: {  }
+id: normal_group_type
+label: 'Normal Group Type'
+description: ''
+creator_membership: true
+creator_wizard: false
+creator_roles:
+  - normal_group_type-admin

@@ -1,0 +1,8 @@
+uuid: 3352598f-dfdf-4203-bb39-ce08c09eadaa
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_survey
+label: 'Survey comment'
+target_entity_type_id: node
+description: null

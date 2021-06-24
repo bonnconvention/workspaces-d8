@@ -1,0 +1,10 @@
+uuid: f180062f-e468-478c-9f94-f8d62c5c618b
+langcode: en
+status: true
+dependencies:
+  module:
+    - invite
+id: invite_sender.token
+label: Token
+targetEntityType: invite_sender
+cache: true

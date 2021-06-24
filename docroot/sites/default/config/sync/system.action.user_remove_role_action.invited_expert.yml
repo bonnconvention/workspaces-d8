@@ -1,0 +1,14 @@
+uuid: cf526f1d-2fb7-4c49-9f34-d569d36a8018
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.invited_expert
+  module:
+    - user
+id: user_remove_role_action.invited_expert
+label: 'Remove the Invited Expert role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: invited_expert

@@ -1,0 +1,44 @@
+uuid: bebcfde2-7fd1-410d-81d0-872f6d7910ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.page.body
+    - field.field.node.page.comment_node_page
+    - field.field.node.page.field_attachment
+    - field.field.node.page.field_tags
+    - node.type.page
+  module:
+    - file
+    - text
+    - user
+id: node.page.search_result
+targetEntityType: node
+bundle: page
+mode: search_result
+content:
+  body:
+    label: hidden
+    weight: 0
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_attachment:
+    label: above
+    weight: 1
+    type: file_table
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  comment_node_page: true
+  field_tags: true
+  langcode: true

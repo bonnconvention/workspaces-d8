@@ -1,0 +1,8 @@
+uuid: 6dc5b781-fa55-4bf5-bbc4-c9453ea4ad2d
+langcode: en
+status: true
+dependencies: {  }
+id: menu-public-area
+label: 'Public Area'
+description: ''
+locked: false

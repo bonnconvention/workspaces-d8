@@ -1,0 +1,17 @@
+uuid: 54e43ab8-8663-41a6-b3e0-d0821be6614f
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+  enforced:
+    config:
+      - user.role.edw_healthcheck_role
+id: normal_group_type-614df75b2
+label: 'EDW HealthCheck Access Role'
+weight: 17
+internal: true
+audience: outsider
+group_type: normal_group_type
+permissions_ui: false
+permissions: {  }

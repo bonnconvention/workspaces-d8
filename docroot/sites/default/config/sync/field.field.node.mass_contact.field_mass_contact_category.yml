@@ -1,0 +1,19 @@
+uuid: 32281613-da08-492b-8bd7-477db1b4a7c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mass_contact_category
+    - node.type.mass_contact
+id: node.mass_contact.field_mass_contact_category
+field_name: field_mass_contact_category
+entity_type: node
+bundle: mass_contact
+label: Category
+description: 'The Mass Contact category of users sent to.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

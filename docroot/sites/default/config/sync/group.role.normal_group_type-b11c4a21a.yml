@@ -1,0 +1,17 @@
+uuid: 9167d96a-61f0-45d1-9c2f-194fc46d5c04
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+  enforced:
+    config:
+      - user.role.cms_secretariat
+id: normal_group_type-b11c4a21a
+label: 'CMS Secretariat'
+weight: 13
+internal: true
+audience: outsider
+group_type: normal_group_type
+permissions_ui: false
+permissions: {  }

@@ -1,0 +1,14 @@
+uuid: e45109b5-f83c-4ce8-a8cb-913627c37fca
+langcode: en
+status: true
+dependencies: {  }
+name: 'Display Suite code'
+format: ds_code
+weight: -6
+filters:
+  filter_null:
+    id: filter_null
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }

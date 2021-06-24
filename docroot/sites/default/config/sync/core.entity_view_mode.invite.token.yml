@@ -1,0 +1,10 @@
+uuid: 9ba6ec4e-18dd-48b5-b087-13135a0b580c
+langcode: en
+status: true
+dependencies:
+  module:
+    - invite
+id: invite.token
+label: Token
+targetEntityType: invite
+cache: true

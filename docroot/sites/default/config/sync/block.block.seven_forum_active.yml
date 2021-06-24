@@ -1,0 +1,19 @@
+uuid: 8fcd91af-60a7-4e12-9463-caedf75c0e98
+langcode: en
+status: true
+dependencies:
+  theme:
+    - seven
+id: seven_forum_active
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: forum_active_block
+settings:
+  id: broken
+  label: ''
+  provider: core
+  label_display: '0'
+  block_count: 5
+visibility: {  }

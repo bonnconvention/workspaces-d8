@@ -1,0 +1,14 @@
+uuid: b866afac-c7cf-459d-a612-29d15a427e6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.scc_members
+  module:
+    - user
+id: user_add_role_action.scc_members
+label: 'Add the ScC_members role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: scc_members

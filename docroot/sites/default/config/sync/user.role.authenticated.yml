@@ -1,0 +1,27 @@
+uuid: cc7c670a-c4a9-4776-a1c7-be2a837f0c9b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'edit mimemail user settings'
+  - 'edit own main profile'
+  - 'edit own scc_function profile'
+  - 'edit webform components'
+  - 'opt-in or out of google analytics tracking'
+  - 'skip CAPTCHA'
+  - 'use text format full_html'
+  - 'use text format line_breaks'
+  - 'view any scc_function profile'
+  - 'view own main profile'
+  - 'view own scc_function profile'
+  - 'view status messages'

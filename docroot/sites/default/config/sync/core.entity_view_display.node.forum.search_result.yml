@@ -1,0 +1,51 @@
+uuid: bfd25a51-793a-472e-bef9-fdcfc3d37a04
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.forum.body
+    - field.field.node.forum.comment_forum
+    - field.field.node.forum.field_attachment
+    - field.field.node.forum.taxonomy_forums
+    - node.type.forum
+  module:
+    - file
+    - text
+    - user
+id: node.forum.search_result
+targetEntityType: node
+bundle: forum
+mode: search_result
+content:
+  body:
+    label: hidden
+    weight: 11
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_attachment:
+    label: above
+    weight: 12
+    type: file_table
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  taxonomy_forums:
+    label: above
+    weight: 10
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+hidden:
+  comment_forum: true
+  langcode: true

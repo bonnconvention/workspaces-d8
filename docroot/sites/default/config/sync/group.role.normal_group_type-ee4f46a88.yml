@@ -1,0 +1,17 @@
+uuid: a4f7b6ee-5df1-4197-9660-cbc66a3d090b
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+  enforced:
+    config:
+      - user.role.councillor
+id: normal_group_type-ee4f46a88
+label: Councillor
+weight: 15
+internal: true
+audience: outsider
+group_type: normal_group_type
+permissions_ui: false
+permissions: {  }

@@ -1,0 +1,14 @@
+uuid: 7bb9cd6d-7474-464b-9e09-f477932402af
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.wg_admin_convener
+  module:
+    - user
+id: user_add_role_action.wg_admin_convener
+label: 'Add the WG admin/Convener role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: wg_admin_convener

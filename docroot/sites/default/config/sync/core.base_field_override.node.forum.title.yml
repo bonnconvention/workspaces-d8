@@ -1,0 +1,18 @@
+uuid: 2c7918d5-4ad9-46b4-8d41-6df0b9c86819
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.forum
+id: node.forum.title
+field_name: title
+entity_type: node
+bundle: forum
+label: Subject
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

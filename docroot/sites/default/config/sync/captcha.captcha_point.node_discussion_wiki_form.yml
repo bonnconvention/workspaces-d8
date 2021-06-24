@@ -1,0 +1,7 @@
+uuid: 1180b52b-4020-44f1-924d-6b9a7e7464a2
+langcode: en
+status: false
+dependencies: {  }
+formId: node_discussion_wiki_form
+captchaType: default
+label: null

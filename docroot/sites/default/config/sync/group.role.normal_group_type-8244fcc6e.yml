@@ -1,0 +1,17 @@
+uuid: 25c1cb98-fe33-48bc-ad45-d85adff415ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+  enforced:
+    config:
+      - user.role.super_admin
+id: normal_group_type-8244fcc6e
+label: 'Super admin'
+weight: 11
+internal: true
+audience: outsider
+group_type: normal_group_type
+permissions_ui: false
+permissions: {  }

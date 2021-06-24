@@ -1,0 +1,8 @@
+uuid: afb5f9dc-d61b-44ef-b827-b9ee2c46a90b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Working Group'
+vid: working_group
+description: 'Heirarchical taxonomy for Working groups'
+weight: 0

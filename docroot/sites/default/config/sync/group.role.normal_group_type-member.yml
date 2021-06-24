@@ -1,0 +1,14 @@
+uuid: 0c11eaeb-870b-428f-a512-42d943a0ed5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+id: normal_group_type-member
+label: Member
+weight: -100
+internal: true
+audience: member
+group_type: normal_group_type
+permissions_ui: true
+permissions: {  }

@@ -1,0 +1,17 @@
+uuid: 7c30bc95-e2d9-46f4-ad9b-f85cb001e62c
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+  enforced:
+    config:
+      - user.role.sessional_committee_members
+id: normal_group_type-4e47a951c
+label: 'Sessional Committee Members'
+weight: 16
+internal: true
+audience: outsider
+group_type: normal_group_type
+permissions_ui: false
+permissions: {  }

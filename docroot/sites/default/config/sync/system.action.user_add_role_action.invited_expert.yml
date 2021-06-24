@@ -1,0 +1,14 @@
+uuid: 922c8f2e-7cdb-4bfe-9d1e-b00724fad907
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.invited_expert
+  module:
+    - user
+id: user_add_role_action.invited_expert
+label: 'Add the Invited Expert role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: invited_expert

@@ -1,0 +1,8 @@
+uuid: b8cde800-9171-4a25-9468-c59c8243cdaa
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_mass_contact
+label: 'Mass Contact message comment'
+target_entity_type_id: node
+description: null

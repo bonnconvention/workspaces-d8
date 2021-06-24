@@ -1,0 +1,17 @@
+uuid: ea22e871-aa01-44f2-855e-383fac8be243
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+  enforced:
+    config:
+      - user.role.scc_members
+id: normal_group_type-1b9d7e6f5
+label: ScC_members
+weight: 7
+internal: true
+audience: outsider
+group_type: normal_group_type
+permissions_ui: false
+permissions: {  }

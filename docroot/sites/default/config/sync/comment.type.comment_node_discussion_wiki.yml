@@ -1,0 +1,8 @@
+uuid: 2977048d-f819-432e-8532-fe37ac21bfe0
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_discussion_wiki
+label: 'Discussion Wiki comment'
+target_entity_type_id: node
+description: null

@@ -1,0 +1,23 @@
+uuid: 779277d0-9b66-4b0d-a39e-a97391f4276d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.discussion_wiki
+  module:
+    - text
+id: node.discussion_wiki.body
+field_name: body
+entity_type: node
+bundle: discussion_wiki
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

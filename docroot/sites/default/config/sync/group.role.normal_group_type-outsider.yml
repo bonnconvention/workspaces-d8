@@ -1,0 +1,14 @@
+uuid: 97a30343-6681-43fe-97b2-14d3b13c91ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+id: normal_group_type-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: normal_group_type
+permissions_ui: true
+permissions: {  }

@@ -1,0 +1,19 @@
+uuid: ea263e38-57c8-4002-aadc-be7101f314a2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - seven
+id: seven_forum_new
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: forum_new_block
+settings:
+  id: broken
+  label: ''
+  provider: core
+  label_display: '0'
+  block_count: 5
+visibility: {  }

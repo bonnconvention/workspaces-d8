@@ -1,0 +1,21 @@
+uuid: 6d39757e-3f43-4501-986f-f83d80e4c7e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - invite
+_core:
+  default_config_hash: VvsLgW43OdvTy-TCiCQxM6LjnfEXZufjD8qAzhpv1fM
+id: invite.field_invite_email_subject
+field_name: field_invite_email_subject
+entity_type: invite
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

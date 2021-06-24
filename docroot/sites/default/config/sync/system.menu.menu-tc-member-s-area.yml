@@ -1,0 +1,8 @@
+uuid: bf808f07-e3cd-4296-9a37-bf85e164c2ff
+langcode: en
+status: true
+dependencies: {  }
+id: menu-tc-member-s-area
+label: 'Members '
+description: 'Links for ScC members'
+locked: false

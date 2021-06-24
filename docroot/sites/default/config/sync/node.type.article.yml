@@ -1,0 +1,25 @@
+uuid: b1da839e-7d40-493b-9de6-a7ad674e66fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+      - management
+      - navigation
+      - menu-public-area
+      - menu-tc-working-area
+      - user-menu
+    parent: 'main-menu:0:'
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+name: Article
+type: article
+description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

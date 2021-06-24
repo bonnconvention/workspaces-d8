@@ -1,0 +1,17 @@
+uuid: 56dce830-69a5-4325-8da6-d7be7d6ed85f
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+  enforced:
+    config:
+      - user.role.administrator
+id: normal_group_type-a416e6833
+label: administrator
+weight: 2
+internal: true
+audience: outsider
+group_type: normal_group_type
+permissions_ui: false
+permissions: {  }

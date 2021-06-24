@@ -1,0 +1,17 @@
+uuid: 0093b226-885b-4766-a20c-6370eacda121
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.normal_group_type
+  enforced:
+    config:
+      - user.role.wg_admin_convener
+id: normal_group_type-28c1ea2ed
+label: 'WG admin/Convener'
+weight: 3
+internal: true
+audience: outsider
+group_type: normal_group_type
+permissions_ui: false
+permissions: {  }

@@ -1,0 +1,8 @@
+uuid: aa290261-bb7d-4f0f-8c7f-3039efbcc99c
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_working_group_topic
+label: 'Working group topic comment'
+target_entity_type_id: node
+description: null
