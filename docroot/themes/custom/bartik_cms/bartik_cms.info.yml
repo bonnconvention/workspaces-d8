@@ -1,0 +1,9 @@
+name: Bartik for CMS
+type: theme
+description: 'A sub-theme of Bartik for CMS.'
+package: Other
+core: 8.x
+libraries:
+  - bartik_cms/global-styling
+ 
+base theme: bartik
