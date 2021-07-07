@@ -54,3 +54,4 @@ hidden:
   comment: true
   comment_node_article: true
   langcode: true
+  search_api_excerpt: true

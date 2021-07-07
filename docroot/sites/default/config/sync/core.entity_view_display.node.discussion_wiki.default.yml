@@ -51,3 +51,4 @@ content:
 hidden:
   langcode: true
   og_group_ref: true
+  search_api_excerpt: true

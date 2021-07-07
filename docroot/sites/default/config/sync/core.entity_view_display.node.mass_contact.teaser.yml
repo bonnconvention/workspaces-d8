@@ -45,3 +45,4 @@ hidden:
   field_mass_contact_result: true
   field_mass_contact_to: true
   langcode: true
+  search_api_excerpt: true

@@ -66,3 +66,4 @@ hidden:
   group_group: true
   langcode: true
   og_roles_permissions: true
+  search_api_excerpt: true

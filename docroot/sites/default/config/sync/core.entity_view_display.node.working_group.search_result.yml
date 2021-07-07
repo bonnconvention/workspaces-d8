@@ -70,3 +70,4 @@ hidden:
   group_content_access: true
   group_group: true
   langcode: true
+  search_api_excerpt: true
