@@ -1,0 +1,4 @@
+settings:
+  default_reset_button_label: Restablecer
+  default_delete_button_label: Eliminar
+  default_wizard_toggle_show_label: 'Mostrar todo'

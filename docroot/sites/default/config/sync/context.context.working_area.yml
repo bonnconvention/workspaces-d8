@@ -1,0 +1,64 @@
+uuid: 65ecf824-8f7c-4483-a192-feecc27ee9ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+    - term_condition
+name: working_area
+label: 'Working Area'
+group: 'Working Area'
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  node_type:
+    id: node_type
+    bundles:
+      working_group: working_group
+      working_group_topic: working_group_topic
+    negate: false
+    uuid: cdd9e4fc-5ab6-47eb-8060-153b8fb86596
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: node/3
+    negate: false
+    uuid: 1149d392-ccb6-412b-b68c-dd075a388f4b
+    context_mapping: {  }
+  term:
+    id: term
+    tid:
+      -
+        target_id: '47'
+    negate: 0
+    uuid: e89e61d6-f28d-40f4-b300-026e7a015332
+    context_mapping:
+      node: '@node.node_route_context:node'
+reactions:
+  blocks:
+    blocks:
+      a29670ea-676c-49f6-9084-e13fb422d94f:
+        id: 'system_menu_block:menu-tc-working-area'
+        label: 'Working Groups'
+        provider: system
+        label_display: visible
+        level: '1'
+        depth: '0'
+        expand_all_items: 0
+        region: sidebar_first
+        weight: '0'
+        context_mapping: {  }
+        custom_id: system_menu_block_menu_tc_working_area
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: working_area
+        uuid: a29670ea-676c-49f6-9084-e13fb422d94f
+    id: blocks
+    saved: false
+    uuid: 7eeb4694-61e1-4859-bcda-5af1a6ec3ba2
+    include_default_blocks: 0
+weight: 0

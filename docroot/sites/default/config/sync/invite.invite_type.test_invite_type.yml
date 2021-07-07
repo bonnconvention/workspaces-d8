@@ -1,0 +1,6 @@
+uuid: e1d83a76-8823-44b2-9bfd-d678bb2b64c5
+langcode: en
+status: null
+dependencies: {  }
+id: test_invite_type
+label: 'Test Invite Type'

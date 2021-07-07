@@ -7,8 +7,8 @@ _core:
 name: thumbnail
 label: thumbnail
 effects:
-  6f83555b-b126-4eae-82fc-5a28a84b221c:
-    uuid: 6f83555b-b126-4eae-82fc-5a28a84b221c
+  29ef21e7-d97a-4434-9060-32f3b5164162:
+    uuid: 29ef21e7-d97a-4434-9060-32f3b5164162
     id: image_resize
     weight: 2
     data:

@@ -1,0 +1,25 @@
+uuid: 7d3307a7-da87-423c-9753-001791f61ee4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik_cms
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: bartik_cms_branding
+theme: bartik_cms
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

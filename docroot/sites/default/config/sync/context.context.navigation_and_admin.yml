@@ -1,0 +1,54 @@
+uuid: 4c9a44db-51c6-4b9c-9927-ebfe36e0b112
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+name: navigation_and_admin
+label: 'Navigation and Admin'
+group: Admin
+description: 'Blocks and menus for admin (non - members and secretariat roles)'
+requireAllConditions: true
+disabled: false
+conditions:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      super_admin: super_admin
+      workspace_moderator: workspace_moderator
+    negate: false
+    uuid: 0fdc1ebb-4bcd-4088-98ea-34b3a44162a8
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path_exclusion:
+    id: request_path_exclusion
+    negate: true
+    pages: 'search*'
+    uuid: 22a144d2-8e59-44fb-974a-951d34ed68ec
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      fc5fbd9a-487c-4ac6-a263-240eefe4b700:
+        id: 'system_menu_block:tools'
+        label: Navigation
+        provider: system
+        label_display: visible
+        level: '1'
+        depth: '0'
+        expand_all_items: 0
+        region: sidebar_first
+        weight: '0'
+        context_mapping: {  }
+        custom_id: system_menu_block_tools
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: navigation_and_admin
+        uuid: fc5fbd9a-487c-4ac6-a263-240eefe4b700
+    id: blocks
+    saved: false
+    uuid: 67a5b7c3-9dec-41a8-af36-9d40f7667130
+    include_default_blocks: 0
+weight: 0

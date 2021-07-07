@@ -1,0 +1,7 @@
+langcode: es
+name: 'Espacio de Trabajo del Consejo Científico de la CMS'
+slogan: ''
+page:
+  front: node/271
+  403: node/590
+  404: ''

@@ -1,0 +1,21 @@
+uuid: 81d4c51f-364f-4751-82c5-6a237e6d3edc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_profile_role
+    - profile.type.scc_function
+  module:
+    - options
+id: profile.scc_function.field_profile_role
+field_name: field_profile_role
+entity_type: profile
+bundle: scc_function
+label: 'Function/Role in the CMS ScC'
+description: 'Please select your Function/Role in the CMS Scientific Council.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,54 @@
+uuid: d43f6002-9b40-495c-830a-ea24bdb8dfa2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - term_condition
+name: members_area
+label: 'Members Area'
+group: 'Members Area'
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: "user\r\nscc-members\r\nsecretariat"
+    negate: false
+    uuid: aef14cb7-cd02-4753-b90e-9b14661e6a90
+    context_mapping: {  }
+  term:
+    id: term
+    tid:
+      -
+        target_id: '48'
+    negate: 0
+    uuid: 2149b5ed-5378-4aa0-9c04-e629f311ec0b
+    context_mapping:
+      node: '@node.node_route_context:node'
+reactions:
+  blocks:
+    blocks:
+      154b8a70-c98f-498f-b3b2-18328b0af1ad:
+        id: 'system_menu_block:menu-tc-member-s-area'
+        label: 'ScC Members Area'
+        provider: system
+        label_display: visible
+        level: '1'
+        depth: '0'
+        expand_all_items: 0
+        region: sidebar_first
+        weight: '0'
+        context_mapping: {  }
+        custom_id: system_menu_block_menu_tc_member_s_area
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: members_area
+        uuid: 154b8a70-c98f-498f-b3b2-18328b0af1ad
+    id: blocks
+    saved: false
+    uuid: de93c279-41dd-4019-b546-97a94f663e51
+    include_default_blocks: 0
+weight: 0

@@ -1,0 +1,21 @@
+uuid: 934f83da-ba43-4763-8f60-51e66eccecea
+langcode: und
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.field_guest
+field_name: field_guest
+entity_type: profile
+type: string
+settings:
+  max_length: 500
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -25,10 +25,14 @@ content:
       image_style: ''
       image_link: content
     type: image
-    weight: 6
+    weight: 9
     third_party_settings: {  }
     region: content
 hidden:
   langcode: true
   mass_contact_opt_out: true
+  official_contact_information_profiles: true
   og_group_ref: true
+  personal_information_profiles: true
+  scc_expertise_profiles: true
+  scc_function_profiles: true

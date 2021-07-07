@@ -1,0 +1,54 @@
+uuid: 024e667c-64d0-4254-a804-85cfd07d9a4b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - term_condition
+name: resource_area
+label: 'Resource Area'
+group: 'Resource Area'
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: aewa-secretariat
+    negate: false
+    uuid: 6fc5b618-ac88-4d9f-a585-72d8bbb444bf
+    context_mapping: {  }
+  term:
+    id: term
+    tid:
+      -
+        target_id: '36'
+    negate: 0
+    uuid: 2ab037fd-9525-4346-8b4c-79b10e248401
+    context_mapping:
+      node: '@node.node_route_context:node'
+reactions:
+  blocks:
+    blocks:
+      c957be7c-d035-46f6-8674-4c0737c0f9ad:
+        id: 'system_menu_block:menu-tc-resource-area'
+        label: Resources
+        provider: system
+        label_display: visible
+        level: '1'
+        depth: '0'
+        expand_all_items: 0
+        region: sidebar_first
+        weight: '0'
+        context_mapping: {  }
+        custom_id: system_menu_block_menu_tc_resource_area
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: resource_area
+        uuid: c957be7c-d035-46f6-8674-4c0737c0f9ad
+    id: blocks
+    saved: false
+    uuid: 51e850ca-0c94-49e1-9d0d-c0f431b73c06
+    include_default_blocks: 0
+weight: 0

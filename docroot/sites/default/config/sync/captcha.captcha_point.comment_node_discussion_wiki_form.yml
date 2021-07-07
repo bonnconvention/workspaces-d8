@@ -1,0 +1,7 @@
+uuid: c17c5fc6-d88f-4fbd-b741-74e6732cea21
+langcode: en
+status: true
+dependencies: {  }
+formId: comment_node_discussion_wiki_form
+captchaType: captcha/
+label: comment_node_discussion_wiki_form

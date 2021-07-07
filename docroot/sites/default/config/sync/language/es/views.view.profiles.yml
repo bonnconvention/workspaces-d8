@@ -1,0 +1,20 @@
+display:
+  default:
+    display_title: Máster
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Restablecer
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      arguments:
+        uid:
+          exception:
+            title: Todo(s)
+        type:
+          exception:
+            title: Todo(s)
+        status:
+          exception:
+            title: Todo(s)

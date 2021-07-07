@@ -1,0 +1,7 @@
+uuid: fbea475f-e05b-4308-910c-9d3369dd7774
+langcode: en
+status: true
+dependencies: {  }
+formId: comment_node_interesting_links_form
+captchaType: captcha/
+label: comment_node_interesting_links_form

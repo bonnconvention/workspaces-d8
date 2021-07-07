@@ -1,0 +1,7 @@
+uuid: bc2e4843-6f67-4757-99fa-7c617d2f1f40
+langcode: en
+status: true
+dependencies: {  }
+formId: comment_node_working_group_topic_form
+captchaType: captcha/
+label: comment_node_working_group_topic_form

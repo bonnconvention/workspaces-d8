@@ -1,0 +1,76 @@
+uuid: 05926675-1c5d-498b-a9d3-3dbba3c15e64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.invite.invite_by_email.field_invitation_email_address
+    - field.field.invite.invite_by_email.field_invitation_email_body
+    - field.field.invite.invite_by_email.field_invitation_email_subject
+  module:
+    - invite
+id: invite.invite_by_email.default
+targetEntityType: invite
+bundle: invite_by_email
+mode: default
+content:
+  field_invitation_email_address:
+    weight: 10
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_invitation_email_body:
+    weight: 30
+    type: string_textarea
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_invitation_email_subject:
+    weight: 20
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  invitee:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+  reg_code:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  type:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden: {  }

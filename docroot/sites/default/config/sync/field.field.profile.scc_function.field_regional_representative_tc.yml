@@ -1,0 +1,21 @@
+uuid: 278458cf-2f8b-47f8-b34e-bf5639327f3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_regional_representative_tc
+    - profile.type.scc_function
+  module:
+    - options
+id: profile.scc_function.field_regional_representative_tc
+field_name: field_regional_representative_tc
+entity_type: profile
+bundle: scc_function
+label: Region
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

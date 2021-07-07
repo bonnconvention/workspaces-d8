@@ -1,0 +1,132 @@
+uuid: d7674a33-fe1f-49b5-ab8f-a89320eb5971
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+name: authenticated_site_wide
+label: 'Authenticated site-wide'
+group: 'Site wide contexts'
+description: ''
+requireAllConditions: true
+disabled: false
+conditions:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    uuid: 64bd4b81-43fb-4dd2-aa64-5f60bff3dbf6
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path_exclusion:
+    id: request_path_exclusion
+    negate: true
+    pages: "search*\r\nuser\r\nadmin*\r\n*webform"
+    uuid: ec7d62d9-14e2-41e4-81ff-3e7764cbcb77
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      fb8994d5-2e2c-4ba6-966e-dd2d8cca647c:
+        id: 'views_block:comments_recent-block_1'
+        label: ''
+        provider: views
+        label_display: visible
+        views_label: ''
+        items_per_page: none
+        region: sidebar_first
+        weight: '-1'
+        context_mapping: {  }
+        custom_id: views_block_comments_recent_block_1
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: authenticated_site_wide
+        uuid: fb8994d5-2e2c-4ba6-966e-dd2d8cca647c
+      7cd8d356-0eac-42c8-9488-7ef92517df8c:
+        id: 'views_block:who_s_online-who_s_online_block'
+        label: ''
+        provider: views
+        label_display: visible
+        views_label: ''
+        items_per_page: none
+        region: sidebar_first
+        weight: '0'
+        context_mapping: {  }
+        custom_id: views_block_who_s_online_who_s_online_block
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: authenticated_site_wide
+        uuid: 7cd8d356-0eac-42c8-9488-7ef92517df8c
+      935538d0-9293-4dbd-9038-b416ae484553:
+        id: 'views_block:surveys-block_1'
+        label: ''
+        provider: views
+        label_display: visible
+        views_label: ''
+        items_per_page: none
+        region: sidebar_first
+        weight: '1'
+        context_mapping: {  }
+        custom_id: views_block_surveys_block_1
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: authenticated_site_wide
+        uuid: 935538d0-9293-4dbd-9038-b416ae484553
+      930f4a96-6189-4821-a32a-f73d9b2ec764:
+        id: forum_new_block
+        label: 'New forum topics'
+        provider: forum
+        label_display: visible
+        properties:
+          administrative: true
+        block_count: '5'
+        region: sidebar_second
+        weight: '-1'
+        context_mapping: {  }
+        custom_id: forum_new_block
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: authenticated_site_wide
+        uuid: 930f4a96-6189-4821-a32a-f73d9b2ec764
+      fc2d0b37-a2ad-442f-bbaf-aaaddb13acc0:
+        id: 'views_block:new_content-block_1'
+        label: ''
+        provider: views
+        label_display: visible
+        views_label: ''
+        items_per_page: none
+        region: sidebar_second
+        weight: '-2'
+        context_mapping: {  }
+        custom_id: views_block_new_content_block_1
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: authenticated_site_wide
+        uuid: fc2d0b37-a2ad-442f-bbaf-aaaddb13acc0
+      ff66b583-3897-40aa-8bca-2c3a9b6a6423:
+        id: 'views_block:links_and_resources-block_1'
+        label: 'Interesting Links'
+        provider: views
+        label_display: visible
+        views_label: 'Interesting Links'
+        items_per_page: none
+        region: sidebar_second
+        weight: '0'
+        context_mapping: {  }
+        custom_id: views_block_links_and_resources_block_1
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: authenticated_site_wide
+        uuid: ff66b583-3897-40aa-8bca-2c3a9b6a6423
+    id: blocks
+    saved: false
+    uuid: 08343305-9d14-4dbf-b8bb-68387eba31b6
+    include_default_blocks: 0
+weight: 0

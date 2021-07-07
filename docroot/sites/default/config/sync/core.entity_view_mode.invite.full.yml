@@ -1,0 +1,10 @@
+uuid: 0e91437a-8552-42ff-b055-7f4e2e873711
+langcode: en
+status: true
+dependencies:
+  module:
+    - invite
+id: invite.full
+label: Full
+targetEntityType: invite
+cache: true

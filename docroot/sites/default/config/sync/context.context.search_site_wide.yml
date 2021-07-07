@@ -1,0 +1,26 @@
+uuid: 6f852094-bca0-4393-8636-3982380ce930
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+name: search_site_wide
+label: 'Search Site Wide'
+group: 'Site wide contexts'
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: 'search*'
+    negate: false
+    uuid: 1a488a81-bc64-42a2-9fd7-b1fc77650796
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks: {  }
+    id: blocks
+    saved: false
+    uuid: 0b412a7e-0ba5-424a-9369-3484607f4d2f
+weight: 0

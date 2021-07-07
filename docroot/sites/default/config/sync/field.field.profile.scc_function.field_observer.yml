@@ -1,0 +1,19 @@
+uuid: b9cc5d78-0b21-4d4a-85f8-1f84f027fc7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_observer
+    - profile.type.scc_function
+id: profile.scc_function.field_observer
+field_name: field_observer
+entity_type: profile
+bundle: scc_function
+label: 'Governmental Observer'
+description: 'You are an Observer? Please specify your country.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

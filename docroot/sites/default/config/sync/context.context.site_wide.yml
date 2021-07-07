@@ -1,0 +1,50 @@
+uuid: 77dfbb37-bd21-4aba-bb73-3007bf9ba180
+langcode: en
+status: true
+dependencies: {  }
+name: site_wide
+label: 'Site Wide'
+group: 'Site wide contexts'
+description: ''
+requireAllConditions: false
+disabled: false
+conditions: {  }
+reactions:
+  blocks:
+    blocks:
+      f6deb8d0-216e-45a1-a5f2-d39d54c04a4e:
+        id: 'language_block:language_interface'
+        label: 'Language switcher'
+        provider: language
+        label_display: visible
+        region: header
+        weight: '0'
+        context_mapping: {  }
+        custom_id: language_block_language_interface
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: site_wide
+        uuid: f6deb8d0-216e-45a1-a5f2-d39d54c04a4e
+      14ffd124-c2f9-4be6-8501-971f32f81e61:
+        id: 'block_content:31023ddc-e68b-4fbb-a6ab-b68e66ffb04e'
+        label: 'Block for footer'
+        provider: block_content
+        label_display: visible
+        status: true
+        info: ''
+        view_mode: full
+        region: footer_fifth
+        weight: '0'
+        context_mapping: {  }
+        custom_id: block_content_31023ddc_e68b_4fbb_a6ab_b68e66ffb04e
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: site_wide
+        uuid: 14ffd124-c2f9-4be6-8501-971f32f81e61
+    id: blocks
+    saved: false
+    uuid: 86a4f651-2c62-48ed-8c19-7ed5ff44dd62
+    include_default_blocks: 0
+weight: 0

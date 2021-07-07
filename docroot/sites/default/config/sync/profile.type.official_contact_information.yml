@@ -1,0 +1,12 @@
+uuid: 3b1dd0c8-d0b1-4179-85a9-ddcf560d2214
+langcode: en
+status: true
+dependencies: {  }
+id: official_contact_information
+label: 'Official contact information'
+display_label: null
+multiple: false
+registration: true
+roles: {  }
+allow_revisions: false
+new_revision: false

@@ -1,0 +1,11 @@
+uuid: 1ab0d692-c9d5-4a86-8703-089429e64d47
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_mass_contact
+id: comment.comment_node_mass_contact
+target_entity_type_id: comment
+target_bundle: comment_node_mass_contact
+default_langcode: site_default
+language_alterable: false

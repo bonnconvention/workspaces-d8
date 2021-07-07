@@ -31,4 +31,8 @@ hidden:
   langcode: true
   mass_contact_opt_out: true
   member_for: true
+  official_contact_information_profiles: true
   og_group_ref: true
+  personal_information_profiles: true
+  scc_expertise_profiles: true
+  scc_function_profiles: true

@@ -1,0 +1,14 @@
+uuid: a7d4d399-5b58-4eae-bbf4-b2cf3642cc15
+langcode: en
+status: true
+dependencies: {  }
+id: website_feedback2
+label: 'Website feedback'
+recipients:
+  - borja.heredia@cms.int
+  - heidrun.frisch@ascobans.org
+  - aydin.bahramlouian@cms.int
+reply: ''
+weight: 0
+message: null
+redirect: null

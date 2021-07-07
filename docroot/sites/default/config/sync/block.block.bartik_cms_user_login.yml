@@ -1,14 +1,14 @@
-uuid: 7fa7f4d2-bd31-4937-9fcd-4cafeeba200a
+uuid: 4578f91f-6dcb-40b2-8e24-bd408980a940
 langcode: en
 status: true
 dependencies:
   module:
     - user
   theme:
-    - bartik
+    - bartik_cms
 id: bartik_cms_user_login
-theme: bartik
-region: content
+theme: bartik_cms
+region: sidebar_first
 weight: -7
 provider: null
 plugin: user_login_block

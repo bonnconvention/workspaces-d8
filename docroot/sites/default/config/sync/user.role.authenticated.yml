@@ -17,7 +17,6 @@ permissions:
   - 'edit own main profile'
   - 'edit own scc_function profile'
   - 'edit webform components'
-  - 'opt-in or out of google analytics tracking'
   - 'skip CAPTCHA'
   - 'use text format full_html'
   - 'use text format line_breaks'

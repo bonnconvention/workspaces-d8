@@ -1,0 +1,63 @@
+uuid: fcb59610-a9c2-46b9-b029-7d83759a8d9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+    - term_condition
+name: discussion_wiki
+label: Wiki
+group: Wiki
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  node_type:
+    id: node_type
+    bundles:
+      discussion_wiki: discussion_wiki
+    negate: false
+    uuid: a24c1841-4cc8-477d-988d-393c9861a218
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: wiki
+    negate: false
+    uuid: 3582bb96-108d-49a2-9adf-b84563eaf8a6
+    context_mapping: {  }
+  term:
+    id: term
+    tid:
+      -
+        target_id: '49'
+    negate: 0
+    uuid: 6aed234e-8cef-4355-abf0-4968e4ce7e73
+    context_mapping:
+      node: '@node.node_route_context:node'
+reactions:
+  blocks:
+    blocks:
+      9aa39f63-40b9-4230-8976-9c888d14646c:
+        id: 'system_menu_block:menu-tc-wiki'
+        label: Wiki
+        provider: system
+        label_display: visible
+        level: '1'
+        depth: '0'
+        expand_all_items: 0
+        region: sidebar_first
+        weight: '0'
+        context_mapping: {  }
+        custom_id: system_menu_block_menu_tc_wiki
+        theme: bartik_cms
+        css_class: ''
+        unique: 0
+        context_id: discussion_wiki
+        uuid: 9aa39f63-40b9-4230-8976-9c888d14646c
+    id: blocks
+    saved: false
+    uuid: 80494b47-6228-47c7-9326-814cf0435e45
+    include_default_blocks: 0
+weight: 0

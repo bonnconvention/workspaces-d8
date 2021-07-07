@@ -1,0 +1,19 @@
+uuid: 8382b3a8-a5b9-4bcf-9e12-8cef156462dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_name_of_institution
+    - profile.type.official_contact_information
+id: profile.official_contact_information.field_name_of_institution
+field_name: field_name_of_institution
+entity_type: profile
+bundle: official_contact_information
+label: 'Name of Institution'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -2,6 +2,8 @@ uuid: 8fcd91af-60a7-4e12-9463-caedf75c0e98
 langcode: en
 status: true
 dependencies:
+  module:
+    - forum
   theme:
     - seven
 id: seven_forum_active
@@ -11,9 +13,9 @@ weight: 0
 provider: null
 plugin: forum_active_block
 settings:
-  id: broken
+  id: forum_active_block
   label: ''
-  provider: core
+  provider: forum
   label_display: '0'
   properties:
     administrative: '1'

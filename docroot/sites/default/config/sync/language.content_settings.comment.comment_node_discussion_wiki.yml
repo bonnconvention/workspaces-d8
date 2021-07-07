@@ -1,0 +1,11 @@
+uuid: ccafa027-eb69-4025-b9cb-6ef2dba3ffdf
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_discussion_wiki
+id: comment.comment_node_discussion_wiki
+target_entity_type_id: comment
+target_bundle: comment_node_discussion_wiki
+default_langcode: site_default
+language_alterable: false
