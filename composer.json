@@ -108,6 +108,9 @@
             ]
         },
         "patches": {
+            "drupal/core": {
+                "Untranslated menu items are displayed in menus": "https://www.drupal.org/files/issues/2020-05-14/2466553-75-d89x.patch"
+            },
             "drupal/profile": {
                 "Migrate data from Profile2": "https://www.drupal.org/files/issues/2020-05-15/2957256-36.patch"
             }
